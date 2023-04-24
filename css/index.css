@@ -67,3 +67,51 @@ footer {
 	text-align: center;
 }
 
+.notice-board {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  .thumbnail {
+	flex-shrink: 0;
+	margin-right: 20px;
+  }
+  
+  .thumbnail img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+  }
+  
+  .content h3 {
+	margin: 0;
+	font-size: 24px;
+  }
+  
+  .content p {
+	font-size: 14px;
+	color: #666;
+	margin-top: 10px;
+	margin-bottom: 20px;
+  }
+  
+  .info {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .date {
+	font-size: 12px;
+	color: #999;
+  }
+  
+  .comments {
+	font-size: 12px;
+	color: #999;
+  }
+  
+  .thumbnail-container{
+	padding: 20px;
+  }
