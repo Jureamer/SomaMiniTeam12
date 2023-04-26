@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "somaminiteam12",
+  "description": "![alt text](/resources/readme.PNG)",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "electron": "^24.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jureamer/SomaMiniTeam12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jureamer/SomaMiniTeam12/issues"
+  },
+  "homepage": "https://github.com/Jureamer/SomaMiniTeam12#readme"
+}
