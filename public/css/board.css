@@ -1,0 +1,200 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f7f7f7;
+  line-height: 1.5;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #333;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f00;
+}
+
+/* Main Styles */
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Index Section Styles */
+#index {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+#index h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#index img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Index Board Section Styles */
+#index_board {
+  flex-basis: 100%;
+  margin-top: 30px;
+}
+
+#index_board h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.notice-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.thumbnail-container {
+  background-color: inherit;
+  margin-bottom: 20px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.info {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.date {
+  margin-right: 20px;
+}
+
+.comments {
+  color: #f00;
+}
+
+/* Advertise Section Styles */
+#advertise {
+  flex-basis: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#advertise h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#advertise img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+a {
+  color: inherit; /* 상위 요소로부터 색상을 상속받습니다. */
+  text-decoration: none;
+}
+
+.comment {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.comment-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.author {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.comment p {
+  margin: 0;
+}
