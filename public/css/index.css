@@ -67,11 +67,20 @@ footer {
   text-align: center;
 }
 
+.main-image {
+  background-image: url("/public/resources/index.jpg");
+  width: 100%;
+  background-size: contain;
+  height: 360px;
+  background-repeat: no-repeat;
+}
+
 .notice-board {
   display: flex;
   align-items: center;
   padding: 20px;
   border-bottom: 1px solid #ccc;
+  overflow-x: scroll;
 }
 
 .thumbnail {
@@ -88,6 +97,9 @@ footer {
 .content h3 {
   margin: 0;
   font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .content p {
@@ -114,4 +126,5 @@ footer {
 
 .thumbnail-container {
   padding: 20px;
+  width: 200px;
 }
