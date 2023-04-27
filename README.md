@@ -2,24 +2,9 @@
 
 ## [메인화면]
 
-![alt text](public/resources/readme.PNG)
+![](https://user-images.githubusercontent.com/91880235/234756870-d0bb17ee-6a41-41b0-9b70-26d8b59bcb4e.png)
 
 <br>
 
-## [실행 방법]
-
-**1. package 설치**
-
-```
-npm install
-```
-
-**2. node 서버 실행**
-
-```
-npm run start
-```
-
-**3. 웹 사이트 접속**
-
-http://localhost:3001/
+## [접속 링크]
+https://jureamer.github.io/SomaMiniTeam12/index.html
