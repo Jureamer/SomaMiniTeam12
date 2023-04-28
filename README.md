@@ -2,7 +2,7 @@
 
 ## [메인화면]
 
-![](https://user-images.githubusercontent.com/91880235/234756870-d0bb17ee-6a41-41b0-9b70-26d8b59bcb4e.png)
+![image](https://user-images.githubusercontent.com/62461857/235014783-452c0158-c9b9-4c52-ae32-0c360dc95005.png)
 
 <br>
 
